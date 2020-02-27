@@ -15,6 +15,6 @@ public class DemoApplication {
 	}
 	@GetMapping({"/","/hello","/hello-world"}) // "For any request if we want to execute one method we need to assign array of paths to the method"
 	public String hello() {
-		return "hello world";
+		return "hello world varma";
 	}
 }
